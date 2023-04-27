@@ -1,0 +1,9 @@
+.mainnav ul {
+  display: flex;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+}
+
+.mainnav ul li {
+  padding: 1rem;
+}
