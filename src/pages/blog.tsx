@@ -8,24 +8,16 @@ const blog = () => {
       <h2 className="font-bold">Latest Blogs</h2>
       <div className={styles.blogItem}>
         <Link href={"/blogpost/learn-javascript"}>
-          <h3>How to learn javascript in 2022</h3>
+          <h3>How to learn HTML in 2023</h3>
         </Link>
         <p>JavaSript is the language used to design the logic for the web</p>
       </div>
       <div className="blogItem">
-        <h3>How to learn javascript in 2022</h3>
+        <h3>How to learn CSS in 2023</h3>
         <p>JavaSript is the language used to design the logic for the web</p>
       </div>
       <div className="blogItem">
-        <h3>How to learn javascript in 2022</h3>
-        <p>JavaSript is the language used to design the logic for the web</p>
-      </div>
-      <div className="blogItem">
-        <h3>How to learn javascript in 2022</h3>
-        <p>JavaSript is the language used to design the logic for the web</p>
-      </div>
-      <div className="blogItem">
-        <h3>How to learn javascript in 2022</h3>
+        <h3>How to learn Javascript in 2023</h3>
         <p>JavaSript is the language used to design the logic for the web</p>
       </div>
     </div>
