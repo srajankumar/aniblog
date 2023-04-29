@@ -20,3 +20,7 @@
 .blogItem h3 {
   cursor: pointer;
 }
+
+.blogItem {
+  width: 70%;
+}
