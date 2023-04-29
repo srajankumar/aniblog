@@ -22,7 +22,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "public/blogpost/[slug].js"
+    "public/blogpost/[slug].js",
+    "src/pages/api/hello.js"
   ],
   "exclude": ["node_modules"]
 }
