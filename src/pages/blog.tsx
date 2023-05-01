@@ -10,13 +10,12 @@ import Link from "next/link";
 const blog = () => {
   const [blogs, setblogs] = useState([]);
   useEffect(() => {
-    console.log("useeffect is running");
     fetch("http://localhost:3000/api/blogs")
       .then((a) => {
         return a.json();
       }) //fetches jsondata
       .then((parsed) => {
-        console.log(parsed); //parse json file
+        //parse json file
         setblogs(parsed);
       });
   }, []);

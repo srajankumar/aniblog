@@ -23,7 +23,7 @@ export default function Home() {
             <p>A blog for hunting coders by a hunting coder</p>
           </div>
         </div>
-        <div className={styles.blogPage}>
+        {/* <div className={styles.blogPage}>
           <h2 className="font-bold">Popular Blogs</h2>
           <div className="blogItem">
             <h3>How to learn javascript in 2022</h3>
@@ -55,7 +55,7 @@ export default function Home() {
               JavaSript is the language used to design the logic for the web
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </main>
   );
