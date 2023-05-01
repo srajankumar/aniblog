@@ -7,18 +7,12 @@ import Link from "next/link";
 
 // http://localhost:3000/api/blogs
 
-const blog = () => {
-  const [blogs, setblogs] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:3000/api/blogs")
-      .then((a) => {
-        return a.json();
-      }) //fetches jsondata
-      .then((parsed) => {
-        //parse json file
-        setblogs(parsed);
-      });
-  }, []);
+const blog = (props) => {
+  console.log(props);
+  const [blogs, setblogs] = useState(props.allBlogs);
+  // useEffect(() => {
+
+  // }, []);
   return (
     <div className={styles.blogPage}>
       <h1 className="font-bold">Latest Blogs</h1>
@@ -35,5 +29,14 @@ const blog = () => {
     </div>
   );
 };
+
+export async function getServerSideProps(context) {
+  let data = await fetch("http://localhost:3000/api/blogs");
+  let allBlogs = await data.json();
+
+  return {
+    props: { allBlogs }, // will be passed to the page component as props
+  };
+}
 
 export default blog;
