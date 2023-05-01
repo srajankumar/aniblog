@@ -23,7 +23,9 @@
     "**/*.ts",
     "**/*.tsx",
     "public/blogpost/[slug].js",
-    "src/pages/api/hello.js"
+    "src/pages/api/hello.js",
+    "src/pages/blog.jsx",
+    "src/pages/blogpost/[slug].jsx"
   ],
   "exclude": ["node_modules"]
 }
