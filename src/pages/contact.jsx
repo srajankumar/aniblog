@@ -64,6 +64,7 @@ const Contact = () => {
             id="name"
             name="name"
             aria-describedby="emailHelp"
+            required
           />
         </div>
 
@@ -79,6 +80,7 @@ const Contact = () => {
             id="email"
             name="email"
             aria-describedby="emailHelp"
+            required
           />
         </div>
 
@@ -108,6 +110,7 @@ const Contact = () => {
             placeholder="write your consern"
             id="desc"
             name="desc"
+            required
           />
         </div>
 

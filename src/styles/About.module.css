@@ -1,0 +1,18 @@
+.container {
+  max-width: 70vw;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+.container h1 {
+  font-size: larger;
+  text-align: center;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.container h2 {
+  font-size: large;
+  font-weight: 500;
+  padding: 1rem 0;
+}

@@ -1,12 +1,47 @@
 .container {
-  max-width: 45vw;
+  max-width: 60vw;
   margin: auto;
+  margin-bottom: 5rem;
 }
 
 .mb3 {
   margin-bottom: 21px;
+  display: flex;
+  flex-direction: column;
 }
 
 .formlabel {
-  margin: 0 14px;
+  margin: 1rem 0;
+}
+
+.container input {
+  padding: 5px 15px;
+  font-size: 20px;
+  color: black;
+  border-radius: 4px;
+}
+
+.container textarea {
+  padding: 5px 15px;
+  font-size: 20px;
+  color: black;
+  border-radius: 4px;
+}
+
+.container button {
+  padding: 5px 15px;
+  font-size: 1rem;
+  border-radius: 4px;
+  background: rgb(39, 39, 39);
+}
+
+.container label {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.container h1 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-weight: 700;
 }
