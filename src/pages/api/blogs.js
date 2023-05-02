@@ -4,7 +4,9 @@
 
 import * as fs from "node:fs";
 export default async function handler(req, res) {
+  console.log(req.query.count);
   let data = await fs.promises.readdir("blogdata");
+  data = data.slice(0, parseInt(req.query.count)); //array slice
   let myfile;
   let allBlogs = [];
   for (let i = 0; i < data.length; i++) {
