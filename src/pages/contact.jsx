@@ -8,7 +8,6 @@ const Contact = () => {
   const [desc, setdesc] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, phone, email, desc);
     async function postJSON(data) {
       try {
         const response = await fetch("http://localhost:3000/api/postcontact", {
@@ -20,7 +19,6 @@ const Contact = () => {
         })
           .then((response) => response.text())
           .then((data) => {
-            console.log("Success:", data);
             alert("Thanks for contacting us");
             setdesc("");
             setemail("");
@@ -46,7 +44,6 @@ const Contact = () => {
     } else if (e.target.name == "name") {
       setname(e.target.value);
     }
-    // console.log(e, "change");
   };
   return (
     <div className={styles.container}>

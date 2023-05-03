@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 3rem;
+  padding: 3rem 4rem;
 }
 
 .main h1 {

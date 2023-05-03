@@ -19,4 +19,5 @@ body {
     )
     rgb(var(--background-start-rgb));
   padding: 3rem 0 0rem 0;
+  text-align: justify;
 }

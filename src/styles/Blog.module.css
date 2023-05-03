@@ -1,9 +1,10 @@
 .blogPage h1 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .blogPage h2 {
   font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .blogPage div {
@@ -22,5 +23,5 @@
 }
 
 .blogItem {
-  width: 70%;
+  width: 90%;
 }

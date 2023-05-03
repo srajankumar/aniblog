@@ -9,7 +9,6 @@ export default function handler(req, res) {
       res.status(500).json({ error: "No such blog found" });
       return;
     }
-    console.log(data);
     res.status(200).json(JSON.parse(data));
   });
 }
