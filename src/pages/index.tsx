@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Script from "next/script";
-
-import styles from "../styles/Home.module.css";
+const styles = require("../styles/Home.module.css");
+// import styles from "../styles/Home.module.css";
 
 import { Inter } from "next/font/google";
 
