@@ -27,8 +27,8 @@
     "src/pages/blog.jsx",
     "src/pages/blogpost/[slug].jsx",
     "src/pages/contact.jsx",
-    "src/pages/index.tsx",
-    "src/pages/Navbar.tsx",
+    "src/pages/index.jsx",
+    "src/pages/Navbar.jsx",
     "src/styles/Home.module.css"
   ],
   "exclude": ["node_modules"]
