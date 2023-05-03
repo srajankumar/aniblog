@@ -1,0 +1,50 @@
+.container {
+  max-width: 70vw;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+.mainnav ul {
+  display: flex;
+  width: max-content;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.mainnav ul li {
+  display: flex;
+  padding: 0 1rem 0 1rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+.headermain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+  padding: 3rem 0 3rem 0;
+}
+
+.headermain p {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 0 0 0;
+}
+
+.container h2 {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.container h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.container p {
+  padding-bottom: 2rem;
+}
