@@ -26,7 +26,9 @@
     "src/pages/api/hello.js",
     "src/pages/blog.jsx",
     "src/pages/blogpost/[slug].jsx",
-    "src/pages/contact.jsx"
+    "src/pages/contact.jsx",
+    "src/pages/index.jsx",
+    "src/pages/Navbar.jsx"
   ],
   "exclude": ["node_modules"]
 }
