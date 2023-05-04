@@ -1,4 +1,7 @@
 .blogPage h1 {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 1rem 0;
   font-size: 1.5rem;
 }
 
@@ -18,10 +21,22 @@
   align-items: center;
 }
 
+.blogPage b {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 1.5rem 0;
+}
+
 .blogItem h3 {
   cursor: pointer;
 }
 
 .blogItem {
-  width: 90%;
+  width: 30vw;
+}
+
+@media (max-width: 915px) {
+  .blogItem {
+    width: 60vw;
+  }
 }

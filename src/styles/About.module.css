@@ -1,7 +1,7 @@
 .container {
   max-width: 70vw;
   margin: auto;
-  padding-bottom: 5rem;
+  padding: 0 10rem 5rem 10rem;
 }
 
 .container h1 {
@@ -17,4 +17,22 @@
   font-weight: 500;
   padding: 1rem 0;
   font-size: 20px;
+}
+
+.author {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author a {
+  padding: 0 1rem;
+}
+.author p {
+  padding: 0 1rem;
+}
+
+@media (max-width: 915px) {
+  .container {
+    padding: 0 0 5rem 0;
+  }
 }

@@ -13,7 +13,7 @@ import * as fs from "node:fs";
 const Blog = (props) => {
   const [blogs, setblogs] = useState(props.allBlogs);
 
-  const [count, setcount] = useState(2);
+  const [count, setcount] = useState(8);
 
   const fetchData = async () => {
     let d = await fetch(`http://localhost:3000/api/blogs?count=${count + 2}`);
@@ -56,7 +56,7 @@ export async function getStaticProps(context) {
   let allCount = data.length;
   let myfile;
   let allBlogs = [];
-  for (let i = 0; i < data.length; i++) {
+  for (let i = 0; i < 8; i++) {
     const item = data[i];
     myfile = await fs.promises.readFile("blogdata/" + item, "utf-8");
     allBlogs.push(JSON.parse(myfile));
