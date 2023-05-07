@@ -4,6 +4,31 @@
   padding-bottom: 5rem;
 }
 
+.blogPage {
+  max-width: 50vw;
+  margin: auto;
+  padding: 0 10rem 5rem 10rem;
+}
+
+.blogPage img {
+  padding: 1rem 0;
+}
+
+.blogItem div {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+}
+
+.blogPage h4 {
+  font-weight: 500;
+}
+
+.blogPage h5 {
+  font-weight: 500;
+}
+
 .mainnav ul {
   display: flex;
   width: max-content;
@@ -47,4 +72,11 @@
 
 .container p {
   padding-bottom: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .blogPage {
+    max-width: 70vw;
+    padding: 0;
+  }
 }
