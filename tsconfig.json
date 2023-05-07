@@ -29,7 +29,8 @@
     "src/pages/contact.jsx",
     "src/pages/index.jsx",
     "src/pages/Navbar.jsx",
-    "src/styles/Home.module.css"
+    "src/styles/Home.module.css",
+    "src/pages/about.jsx"
   ],
   "exclude": ["node_modules"]
 }
