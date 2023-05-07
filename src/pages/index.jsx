@@ -33,7 +33,7 @@ export default function Home() {
               <h5>9.9</h5>
             </div>
             <p>
-              As Erwin's heroic charge buys Levi time to confront the Beast
+              As Erwin&apos;s heroic charge buys Levi time to confront the Beast
               Titan, Armin comes up with a plan of his own that lays it all on
               the line.
             </p>
@@ -82,8 +82,8 @@ export default function Home() {
               <h5>9.9</h5>
             </div>
             <p>
-              Netero and the King's fierce battle continues. The King feels fear
-              for the first time and Netero demonstrates the zenith of nen
+              Netero and the King&apos;s fierce battle continues. The King feels
+              fear for the first time and Netero demonstrates the zenith of nen
               mastery.
             </p>
           </div>
