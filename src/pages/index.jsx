@@ -11,13 +11,10 @@ export default function Home() {
       <Head>
         <title>AniBlog</title>
       </Head>
-
-      <Script src="/hello.js"></Script>
-
-      <div className="flex flex-col place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <div className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] ">
+      <div>
+        <div className="relative drop-shadow-[0_0_0.3rem_#ffffff70] ">
           <div className={styles.headermain}>
-            <h1 className=" font-mono font-bold">AniBlog</h1>
+            <h1 className="text-5xl font-mono font-bold">AniBlog</h1>
             <p>A blog for Anime lovers ~ (•̀⁠ᴗ⁠-)⁠</p>
           </div>
         </div>
@@ -39,7 +36,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.blogItem}>
-            <h3>Demon Slayer: Kimetsu no Yaiba</h3>
+            <h3>2. Demon Slayer: Kimetsu no Yaiba</h3>
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgifsec.com%2Fwp-content%2Fuploads%2F2022%2F09%2Fdemon-slayer-gif-30.gif&f=1&nofb=1&ipt=8efbfa29dcfda8e1b88152eccce5d0e6732614596afd42c46c100c57b3782536&ipo=images" />
             <div>
               <h4>Episode: I Will Never Give Up</h4>
@@ -51,7 +48,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.blogItem}>
-            <h3>Vinland Saga</h3>
+            <h3>3. Vinland Saga</h3>
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cinepremiere.com.mx%2Fwp-content%2Fuploads%2F2020%2F01%2FVinland-Saga.gif&f=1&nofb=1&ipt=57ba07921ffaeb7d5b93877ad48a8952c9dba40b6cd1572302494c3885dc21b9&ipo=images" />
             <div>
               <h4>Episode: End of The Prologue</h4>
@@ -63,7 +60,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.blogItem}>
-            <h3>Code Geass</h3>
+            <h3>4. Code Geass</h3>
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F_M2N3IPRmG4%2Fmaxresdefault.jpg&f=1&nofb=1&ipt=7acde9893fa7799352118ab387c1c198515c6ecf7f95212eca38ff9b268901f5&ipo=images" />
             <div>
               <h4>Episode: Re;</h4>
@@ -75,7 +72,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.blogItem}>
-            <h3>Hunter x Hunter</h3>
+            <h3>5. Hunter x Hunter</h3>
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyzgeneration.com%2Fwp-content%2Fuploads%2F2014%2F04%2FHunter-X-Hunter-%25C3%2589pisode-126-Cover.png&f=1&nofb=1&ipt=0db4293f5618dfab87cdbcbd8439cf7fb05ba74da33c1f30985a34432d4d14eb&ipo=images" />
             <div>
               <h4>Episode: Zero x and x Rose</h4>
