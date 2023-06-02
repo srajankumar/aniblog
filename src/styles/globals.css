@@ -3,18 +3,28 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 0, 0, 0;
   --background-end-rgb: 0, 0, 0;
 }
-
+/* 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: url("/anime.jpg");
+  color: white;
+  background: linear-gradient(
+    156deg,
+    rgb(63, 0, 79) 0%,
+    black 28%,
+    black 57%,
+    black 100%
+  );
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 3rem 0 0rem 0;
   text-align: justify;
+} */
+
+body {
+  background: #141414;
+  color: white;
 }

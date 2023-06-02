@@ -46,75 +46,77 @@ const Contact = () => {
     }
   };
   return (
-    <div className={styles.container}>
-      <h1>Contact us</h1>
-      <form onSubmit={handleSubmit}>
-        <div className={styles.mb3}>
-          <label for="name" className={styles.formlabel}>
-            Name
-          </label>
-          <input
-            value={name}
-            onChange={handleChange}
-            type="name"
-            className="form-control"
-            id="name"
-            name="name"
-            aria-describedby="emailHelp"
-            required
-          />
-        </div>
+    <div className="pt-28">
+      <div className={styles.container}>
+        <h1>Contact us</h1>
+        <form onSubmit={handleSubmit}>
+          <div className={styles.mb3}>
+            <label for="name" className={styles.formlabel}>
+              Name
+            </label>
+            <input
+              value={name}
+              onChange={handleChange}
+              type="name"
+              className="form-control"
+              id="name"
+              name="name"
+              aria-describedby="emailHelp"
+              required
+            />
+          </div>
 
-        <div className={styles.mb3}>
-          <label for="email" className={styles.formlabel}>
-            Email
-          </label>
-          <input
-            value={email}
-            onChange={handleChange}
-            type="email"
-            className="form-control"
-            id="email"
-            name="email"
-            aria-describedby="emailHelp"
-            required
-          />
-        </div>
+          <div className={styles.mb3}>
+            <label for="email" className={styles.formlabel}>
+              Email
+            </label>
+            <input
+              value={email}
+              onChange={handleChange}
+              type="email"
+              className="form-control"
+              id="email"
+              name="email"
+              aria-describedby="emailHelp"
+              required
+            />
+          </div>
 
-        <div className={styles.mb3}>
-          <label for="phone" className={styles.formlabel}>
-            Phone
-          </label>
-          <input
-            value={phone}
-            onChange={handleChange}
-            type="phone"
-            className="form-control"
-            id="phone"
-            name="phone"
-            aria-describedby="emailHelp"
-          />
-        </div>
+          <div className={styles.mb3}>
+            <label for="phone" className={styles.formlabel}>
+              Phone
+            </label>
+            <input
+              value={phone}
+              onChange={handleChange}
+              type="phone"
+              className="form-control"
+              id="phone"
+              name="phone"
+              aria-describedby="emailHelp"
+            />
+          </div>
 
-        <div className={styles.mb3}>
-          <label for="description" className={styles.formlabel} id="phone">
-            Description
-          </label>
-          <textarea
-            value={desc}
-            onChange={handleChange}
-            className="form-control"
-            placeholder="write your consern"
-            id="desc"
-            name="desc"
-            required
-          />
-        </div>
+          <div className={styles.mb3}>
+            <label for="description" className={styles.formlabel} id="phone">
+              Description
+            </label>
+            <textarea
+              value={desc}
+              onChange={handleChange}
+              className="form-control"
+              placeholder="write your consern"
+              id="desc"
+              name="desc"
+              required
+            />
+          </div>
 
-        <button type="submit" className="btn btn-primary">
-          Submit
-        </button>
-      </form>
+          <button type="submit" className="btn btn-primary">
+            Submit
+          </button>
+        </form>
+      </div>
     </div>
   );
 };

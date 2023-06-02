@@ -22,31 +22,33 @@ const Blog = (props) => {
     setblogs(data);
   };
   return (
-    <div className={styles.blogPage}>
-      <InfiniteScroll
-        dataLength={blogs.length} //This is important field to render the next data
-        next={fetchData}
-        hasMore={props.allCount !== blogs.length}
-        loader={<h4>Loading...</h4>}
-        endMessage={
-          <p style={{ textAlign: "center" }}>
-            <b>Yay! You have seen it all</b>
-          </p>
-        }
-        // below props only if you need pull down functionality
-      >
-        <h1 className="font-bold">Latest Blogs</h1>
-        {blogs.map((blogItem) => {
-          return (
-            <div className={styles.blogItem} key={blogItem.slug}>
-              <Link href={`/blogpost/${blogItem.slug}`}>
-                <h2>{blogItem.title}</h2>
-              </Link>
-              <p>{blogItem.metadesc.substr(0, 200)}...</p>
-            </div>
-          );
-        })}
-      </InfiniteScroll>
+    <div className="pt-28">
+      <div className={styles.blogPage}>
+        <InfiniteScroll
+          dataLength={blogs.length} //This is important field to render the next data
+          next={fetchData}
+          hasMore={props.allCount !== blogs.length}
+          loader={<h4>Loading...</h4>}
+          endMessage={
+            <p style={{ textAlign: "center" }}>
+              <b>Yay! You have seen it all</b>
+            </p>
+          }
+          // below props only if you need pull down functionality
+        >
+          <h1 className="font-bold">Latest Blogs</h1>
+          {blogs.map((blogItem) => {
+            return (
+              <div className={styles.blogItem} key={blogItem.slug}>
+                <Link href={`/blogpost/${blogItem.slug}`}>
+                  <h2>{blogItem.title}</h2>
+                </Link>
+                <p>{blogItem.metadesc.substr(0, 200)}...</p>
+              </div>
+            );
+          })}
+        </InfiniteScroll>
+      </div>
     </div>
   );
 };
