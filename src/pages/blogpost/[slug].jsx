@@ -1,7 +1,6 @@
 //slug will be whatever url you give......
 
 import React, { useEffect, useState } from "react";
-import { useRouter } from "next/router";
 import styles from "../../styles/BlogPost.module.css";
 
 import * as fs from "node:fs";
@@ -16,11 +15,16 @@ const Slug = (props) => {
   return (
     <div>
       <main className={styles.main}>
-        <h1>{blog && blog.title}</h1>
+        <h1 className="text-center">{blog && blog.title}</h1>
         <br />
         {blog && (
           <div dangerouslySetInnerHTML={createMarkup(blog.content)}></div>
         )}
+        <h2>Author</h2>
+        <a href={blog && blog.social} target="_blank">
+          {blog && blog.author}
+        </a>
+        <div>{blog && blog.date}</div>
       </main>
     </div>
   );

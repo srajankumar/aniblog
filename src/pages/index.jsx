@@ -39,16 +39,10 @@ export default function Home() {
                         Survival
                       </h1>
                       <p className="leading-relaxed mb-3 ">
-                        Centuries ago, mankind was slaughtered to near
-                        extinction by monstrous humanoid creatures called
-                        Titans, forcing humans to hide in fear behind enormous
-                        concentric walls. To ensure their survival, the remnants
-                        of humanity began living within defensive barriers,
-                        resulting in one hundred years without a single titan
-                        encounter. However, that fragile calm is soon shattered
-                        when a colossal Titan manages to breach the supposedly
-                        impregnable outer wall, reigniting the fight for
-                        survival against the man-eating abominations.
+                        After his hometown is destroyed and his mother is
+                        killed, young Eren Jaeger vows to cleanse the earth of
+                        the giant humanoid Titans that have brought humanity to
+                        the brink of extinction.
                       </p>
                       <div className="flex items-center flex-wrap ">
                         <a
@@ -120,17 +114,10 @@ export default function Home() {
                         Psychological
                       </h1>
                       <p className="leading-relaxed mb-3 ">
-                        Brutal murders, petty thefts, and senseless violence
-                        pollute the human world. In contrast, the realm of death
-                        gods is a humdrum, unchanging gambling den. The
-                        ingenious 17-year-old Japanese student Light Yagami and
-                        sadistic god of death Ryuk share one belief: their
-                        worlds are rotten. Ryuk drops his Death Note into the
-                        human world. Light stumbles upon it, deeming the first
-                        of its rules ridiculous: the human whose name is written
-                        in this note shall die. However, the temptation is too
-                        great, and Light experiments by writing a felon's name,
-                        which disturbingly enacts his first murder.
+                        An intelligent high school student goes on a secret
+                        crusade to eliminate criminals from the world after
+                        discovering a notebook capable of killing anyone whose
+                        name is written into it.
                       </p>
                       <div className="flex items-center flex-wrap ">
                         <a
@@ -201,16 +188,9 @@ export default function Home() {
                         Shounen, Action, Adventure, Drama, Fantasy, Military
                       </h1>
                       <p className="leading-relaxed mb-3 ">
-                        After a horrific alchemy experiment goes wrong in the
-                        Elric household, brothers Edward and Alphonse are left
-                        in a catastrophic new reality. Ignoring the alchemical
-                        principle banning human transmutation, the boys
-                        attempted to bring their recently deceased mother back
-                        to life. Instead, they suffered brutal personal loss:
-                        Alphonse's body disintegrated while Edward lost a leg
-                        and then sacrificed an arm to keep Alphonse's soul in
-                        the physical realm by binding it to a hulking suit of
-                        armor.
+                        Two brothers search for a Philosopher&apos;s Stone after
+                        an attempt to revive their deceased mother goes awry and
+                        leaves them in damaged physical forms.
                       </p>
                       <div className="flex items-center flex-wrap ">
                         <a
@@ -281,15 +261,8 @@ export default function Home() {
                         Seinen, Action, Comedy, Adult Cast, Parody, Super Power
                       </h1>
                       <p className="leading-relaxed mb-3 ">
-                        The seemingly unimpressive Saitama has a rather unique
-                        hobby: being a hero. In order to pursue his childhood
-                        dream, Saitama relentlessly trained for three years,
-                        losing all of his hair in the process. Now, Saitama is
-                        so powerful, he can defeat any enemy with just one
-                        punch. However, having no one capable of matching his
-                        strength has led Saitama to an unexpected problem—he is
-                        no longer able to enjoy the thrill of battling and has
-                        become quite bored.
+                        The story of Saitama, a hero that does it just for fun &
+                        can defeat his enemies with a single punch.
                       </p>
                       <div className="flex items-center flex-wrap ">
                         <a
@@ -361,15 +334,9 @@ export default function Home() {
                         Survival
                       </h1>
                       <p className="leading-relaxed mb-3 ">
-                        Ever since the release of the innovative NerveGear,
-                        gamers from all around the globe have been given the
-                        opportunity to experience a completely immersive virtual
-                        reality. Sword Art Online (SAO), one of the most recent
-                        games on the console, offers a gateway into the wondrous
-                        world of Aincrad, a vivid, medieval landscape where
-                        users can do anything within the limits of imagination.
-                        With the release of this worldwide sensation, gaming has
-                        never felt more lifelike.
+                        In the year 2022, thousands of people get trapped in a
+                        new virtual MMORPG and the lone wolf player, Kirito,
+                        works to escape.
                       </p>
                       <div className="flex items-center flex-wrap ">
                         <a
@@ -429,7 +396,7 @@ export default function Home() {
                   <div className="h-full border-0 bg-[#212121] border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img
                       className="lg:h-48 md:h-36 w-full object-cover object-center"
-                      src="https://m.media-amazon.com/images/M/MV5BMjQ0M2Y1NmEtMjAyMC00NzQyLWJlOTItZmY3NGNhMDQ2YmM2XkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_.jpg"
+                      src="https://assets1.ignimgs.com/2016/04/11/my-hero-academia-poster-ajpg-6d9b63.jpg"
                       alt="blog"
                     />
                     <div className="p-6">
@@ -440,17 +407,9 @@ export default function Home() {
                         Shounen, Action, School, Super Power
                       </h1>
                       <p className="leading-relaxed mb-3 ">
-                        The appearance of "quirks," newly discovered super
-                        powers, has been steadily increasing over the years,
-                        with 80 percent of humanity possessing various abilities
-                        from manipulation of elements to shapeshifting. This
-                        leaves the remainder of the world completely powerless,
-                        and Izuku Midoriya is one such individual. Since he was
-                        a child, the ambitious middle schooler has wanted
-                        nothing more than to be a hero. Izuku meets the number
-                        one hero and his personal idol, All Might. All Might's
-                        quirk is a unique ability that can be inherited, and he
-                        has chosen Izuku to be his successor!
+                        A superhero-loving boy without any powers is determined
+                        to enroll in a prestigious hero academy and learn what
+                        it really means to be a hero.
                       </p>
                       <div className="flex items-center flex-wrap ">
                         <a
@@ -511,9 +470,7 @@ export default function Home() {
           </section>
         </div>
         <div>
-          <h2 className="font-bold px-5 mx-auto">
-            Highest Rated Anime Episodes of All Time
-          </h2>
+          <h2 className="font-bold px-5 mx-auto">Top Rated Anime Episodes</h2>
           <section className="text-gray-400 body-font">
             <div className="container px-5 py-10 mx-auto">
               <div className="flex flex-wrap -m-4">
@@ -537,7 +494,11 @@ export default function Home() {
                         that lays it all on the line.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a
+                          href="https://attackontitan.fandom.com/wiki/Hero_(Episode)"
+                          target="_blank"
+                          className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        >
                           Learn More
                           <svg
                             className="w-4 h-4 ml-2"
@@ -590,7 +551,11 @@ export default function Home() {
                         debris, with Gyutaro laughing delightedly at his plight.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a
+                          href="https://www.imdb.com/title/tt17521746/ratings/"
+                          target="_blank"
+                          className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        >
                           Learn More
                           <svg
                             className="w-4 h-4 ml-2"
@@ -644,7 +609,11 @@ export default function Home() {
                         makes a last stand.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a
+                          href="https://vinlandsaga.fandom.com/wiki/Chapter_54"
+                          target="_blank"
+                          className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        >
                           Learn More
                           <svg
                             className="w-4 h-4 ml-2"
@@ -697,7 +666,11 @@ export default function Home() {
                         key of Damocles as the battle concludes.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a
+                          href="https://www.imdb.com/title/tt1310121/ratings/?ref_=tt_ov_rt"
+                          target="_blank"
+                          className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        >
                           Learn More
                           <svg
                             className="w-4 h-4 ml-2"
@@ -751,7 +724,11 @@ export default function Home() {
                         United States of Smash, All Might emerges victorious.
                       </p>
                       <div className="flex items-center flex-wrap ">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a
+                          href="https://myheroacademia.fandom.com/wiki/Episode_49"
+                          target="_blank"
+                          className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        >
                           Learn More
                           <svg
                             className="w-4 h-4 ml-2"
@@ -804,7 +781,11 @@ export default function Home() {
                         friends from the Otsutsuki Isshiki
                       </p>
                       <div className="flex items-center flex-wrap ">
-                        <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                        <a
+                          href="https://www.imdb.com/title/tt15498166/ratings/?ref_=tt_ov_rt"
+                          target="_blank"
+                          className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                        >
                           Learn More
                           <svg
                             className="w-4 h-4 ml-2"

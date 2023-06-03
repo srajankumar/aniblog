@@ -22,8 +22,55 @@ const Blog = (props) => {
     setblogs(data);
   };
   return (
-    <div className="pt-28">
-      <div className={styles.blogPage}>
+    <div className={styles.container}>
+      <InfiniteScroll
+        dataLength={blogs.length} //This is important field to render the next data
+        next={fetchData}
+        hasMore={props.allCount !== blogs.length}
+        loader={<h4>Loading...</h4>}
+        endMessage={
+          <p style={{ textAlign: "center" }}>
+            <b>Yay! You have seen it all</b>
+          </p>
+        }
+        // below props only if you need pull down functionality
+      >
+        <h2 className="text-2xl font-bold px-5 mx-auto">Latest Blogs</h2>
+        <div className="container text-gray-400 py-10 mx-auto flex flex-wrap -m-4">
+          {blogs.map((blogItem) => {
+            return (
+              <div key={blogItem.slug} className="w-1/3 p-5">
+                <Link href={`/blogpost/${blogItem.slug}`} className=" md:w-1/3">
+                  <div className="h-full border-0 bg-[#212121] border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                    <img
+                      className="lg:h-48 md:h-36 w-full object-cover object-center"
+                      src={blogItem.img} // Updated line
+                      alt="blog"
+                    />
+                    <div className="p-6">
+                      <h2 className="tracking-widest text-xl title-font font-bold text-white mb-1">
+                        {blogItem.title}
+                      </h2>
+                      <p className="text-gray-300 leading-relaxed mb-3 ">
+                        {blogItem.metadesc.substr(0, 200)} . . .
+                      </p>
+                      <div className="flex items-center flex-wrap ">
+                        {blogItem.genres}
+
+                        <span className="mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-gray-200"></span>
+                        <span className="inline-flex items-center leading-none text-sm">
+                          {blogItem.author}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            );
+          })}
+        </div>
+      </InfiniteScroll>
+      {/* <div className={styles.blogPage}>
         <InfiniteScroll
           dataLength={blogs.length} //This is important field to render the next data
           next={fetchData}
@@ -48,7 +95,7 @@ const Blog = (props) => {
             );
           })}
         </InfiniteScroll>
-      </div>
+      </div> */}
     </div>
   );
 };
