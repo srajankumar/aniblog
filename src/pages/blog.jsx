@@ -29,7 +29,7 @@ const Blog = (props) => {
         hasMore={props.allCount !== blogs.length}
         loader={<h4>Loading...</h4>}
         endMessage={
-          <p style={{ textAlign: "center" }}>
+          <p className="mb-14" style={{ textAlign: "center" }}>
             <b>Yay! You have seen it all</b>
           </p>
         }
@@ -39,7 +39,7 @@ const Blog = (props) => {
         <div className="container text-gray-400 py-10 mx-auto flex flex-wrap -m-4">
           {blogs.map((blogItem) => {
             return (
-              <div key={blogItem.slug} className="w-1/3 p-5">
+              <div key={blogItem.slug} className="md:w-1/3 p-5">
                 <Link href={`/blogpost/${blogItem.slug}`} className=" md:w-1/3">
                   <div className="h-full border-0 bg-[#212121] border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img

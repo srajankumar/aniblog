@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Script from "next/script";
 import styles from "../styles/Main.module.css";
 
 import { Inter } from "next/font/google";
@@ -8,9 +6,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className={styles.container}>
-      <Head>
-        <title>AniBlog</title>
-      </Head>
       <div className="pt-28">
         <div>
           <div className={styles.headermain}>

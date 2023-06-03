@@ -25,6 +25,20 @@ body {
 } */
 
 body {
-  background: #141414;
+  background-image: linear-gradient(
+    to right bottom,
+    #004142,
+    #073540,
+    #162836,
+    #1b1c27,
+    #171218,
+    #171218,
+    #171218,
+    #171218,
+    #1b1c27,
+    #162836,
+    #073540,
+    #004142
+  );
   color: white;
 }

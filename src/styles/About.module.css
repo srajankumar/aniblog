@@ -1,27 +1,24 @@
 .container {
-  max-width: 70vw;
+  max-width: 90vw;
   margin: auto;
-  padding: 0 10rem 5rem 10rem;
+  padding: 0 5rem;
+  min-height: 100vh;
+}
+
+.container p {
+  color: #d8d8d8;
 }
 
 .container h1 {
-  font-size: larger;
   text-align: center;
   font-weight: 700;
   padding: 1rem 0;
-  font-size: 1.4rem;
 }
 
 .container h2 {
-  font-size: large;
   font-weight: 500;
   padding: 1rem 0;
-  font-size: 20px;
-}
-
-.author {
-  display: flex;
-  justify-content: space-between;
+  font-size: x-large;
 }
 
 @media (max-width: 915px) {

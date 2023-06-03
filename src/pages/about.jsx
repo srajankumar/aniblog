@@ -3,15 +3,15 @@ import styles from "../styles/About.module.css";
 
 const about = () => {
   return (
-    <div className="pt-28">
+    <div className="pt-28 md:pb-10 pb-5">
       <div className={styles.container}>
-        <h1>About AniBlog</h1>
+        <h1 className="text-3xl">About AniBlog</h1>
         <h2>Introduction</h2>
         <p>
           Welcome to our AniBlog, where we bring you the latest and greatest
-          news, reviews, and insights into the wonderful world of anime. Here,
-          we share our passion for this incredible medium and offer a gateway
-          for newcomers to explore the vast and varied landscape of Japanese
+          reviews and insights into the wonderful world of anime. Here, we share
+          our passion for this incredible medium and offer a gateway for
+          newcomers to explore the vast and varied landscape of Japanese
           animation.
         </p>
         <br />
